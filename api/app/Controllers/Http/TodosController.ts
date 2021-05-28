@@ -24,6 +24,8 @@ export default class TodosController {
 
     todo.merge(data)
 
+    await todo.save()
+
     return todo
   }
 
