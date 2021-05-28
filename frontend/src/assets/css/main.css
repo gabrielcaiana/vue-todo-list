@@ -1,5 +1,5 @@
 body {
-    background-color: #18243c;
+    background-color: #5468ff;
     font-family: 'Montserrat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
     display: flex;
@@ -36,7 +36,7 @@ body {
   }
   
   form button[type='submit'] {
-    background-color: #3b5998;
+    background-color: #e2ab10;
     padding: 0.5rem 1rem;
     color: #ececf6;
     border-radius: 0.5rem;
@@ -49,12 +49,12 @@ body {
     font-size: 1rem;
     border-radius: 0.9rem;
     cursor: pointer;
-    box-shadow: 0px 0 13px 2px rgba(45, 108, 234, 0.3);
+    box-shadow: 0px 0 13px 2px rgba(226, 171, 16, 0.3);
     transition: all 0.2s linear;
   }
   
   form button[type='submit']:hover {
-    background-color: #3b5998;
+    background-color: #e2ab10ba;
   }
   
   form .checkbox-input {
@@ -83,7 +83,7 @@ body {
   
   .todo {
     color: #ececf6;
-    background-color: #2b3a4e;
+    background-color: rgba(255,255,255, 0.1);
     padding: 1rem;
     border-radius: 0.9rem;
     display: grid;
