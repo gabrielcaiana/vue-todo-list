@@ -9,7 +9,7 @@ export default class Todo extends BaseModel {
   public text: string
 
   @column()
-  public todo: boolean
+  public done: boolean
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
